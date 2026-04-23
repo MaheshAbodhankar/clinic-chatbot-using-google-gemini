@@ -7,7 +7,7 @@ import time
 class GeminiClient:
 
     def __init__(self):
-        load_dotenv()
+        load_dotenv() 
 
         # ✅ Load API Key
         api_key = os.getenv("GEMINI_API_KEY")
